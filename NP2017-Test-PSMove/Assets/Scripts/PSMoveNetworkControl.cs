@@ -50,8 +50,11 @@ public class PSMoveNetworkControl : MonoBehaviour {
 		currentPosition = new Vector3(mappedXPos, mappedYPos, 0.0f); // The X position is what we're interested in as the camera is positioned to the right of the person in the headset
         Debug.Log("Position: " + currentPosition);
     }
+
+
     void OnTriggerEnter(Collider other)
     {
+        //Uses a switch-case statement to c
         switch(other.name)
         {
             case "Portrait1":
