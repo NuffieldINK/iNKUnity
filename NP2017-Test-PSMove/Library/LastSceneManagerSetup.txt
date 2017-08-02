@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/MockWallDesign.unity
+- path: Assets/MockWallDesign2.unity
   isLoaded: 1
   isActive: 1
